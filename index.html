@@ -447,10 +447,66 @@
             </li>
           </ul>
         </div>
+        <div class="footer-box">
+          <p class="footer-paragraph">
+            Subscribe
+          </p>
+          <form class="footer-form">
+            <div class="footer-form-flex">
+              <input type="text" placeholder="E-mail" class="subscribe-input">
+                  <button type="submit" class="tlgrm-subscribe-btn"><span class="subscribe-text-btn">Subscribe</span>
+                  <svg class="footer-subscribe-icon">
+                    <use href="./images/symbol-defs.svg#icon-send"></use>
+                  </svg></button>
+            </div >
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <h3 class="modal-title">Leave your contacts and we will call you back</h3>
+        <form class="modal-form">
+            <div class="form-field-box">
+              <label for="name" class="label">Name</label>
+              <div class="input-wrap">
+                <input type="text" name="name" id="name" class="form-input"/>
+                <svg class="modal-icon">
+                  <use href="./images/symbol-defs.svg#icon-person-black"></use>
+                </svg>
+              </div >
+            </div >
+            <div class="form-field-box">
+              <label for="phone" class="label">Phone</label>
+              <div class="input-wrap">
+                <input type="tel" name="phone" id="phone" class="form-input"/>
+                <svg class="modal-icon">
+                  <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+                </svg>
+              </div >
+            </div >
+            <div class="form-field-box">
+              <label for="mail" class="label">Email</label>
+              <div class="input-wrap">
+                <input type="email" name="mail" id="mail" class="form-input"/>
+                <svg class="modal-icon">
+                  <use href="./images/symbol-defs.svg#icon-email-black"></use>
+                </svg>
+              </div >
+            </div >
+  
+            <div class="form-field-box">
+              <label for="comment" class="label">Comment</label>
+              <textarea name="comment" id="comment" cols="" rows="" placeholder="Text input" class="form-textarea"></textarea>
+            </div >
+            <div class="privacy-policy-box">
+            <input type="checkbox" name="privacy-policy" id="privacy-policy" />
+              <label for="privacy-policy" class="privacy-policy-terms-of-use">
+                I accept the terms and conditions of the <a href="#" class="modal-privacy-link">Privacy Policy<a >
+              </label>
+            </div >
+        </form>
+        <div class="modal-btn-box"><button type="submit" class="modal-btn-send">Send</button></div >
         <button class="modal-btn-close" type="button" data-modal-close>
           <svg class="icon-close-btn-black-x">
             <use href="./images/symbol-defs.svg#icon-close-btn-black-x"></use>
